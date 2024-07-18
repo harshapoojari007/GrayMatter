@@ -1,0 +1,14 @@
+package com.graymatter;
+
+public class FinalClass {
+private final String name;
+//private final String companyName;
+public void changName(String name) {
+	//this.name=name;
+}
+public FinalClass(String name) {
+//	this.name=name;
+	this.name=name;
+	System.out.println(name);
+}
+}

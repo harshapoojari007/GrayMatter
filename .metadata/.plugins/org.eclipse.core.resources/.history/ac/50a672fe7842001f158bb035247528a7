@@ -1,0 +1,20 @@
+package com.grayMatter;
+
+public class DemoDataTypes {
+	public static void main(String []args)
+	{
+		int num=5;
+		System.out.println("num=" +num);
+		boolean flag=false;
+		System.out.println(flag);
+		
+		int a=10,b=5;
+		System.out.println("Sum="+(a+b));
+		System.out.println("Sub="+(a-b));
+		System.out.println("Div="+(a/b));
+		System.out.println("Mul="+(a*b));
+		System.out.println("Modulo="+(a%b));
+		
+	}
+
+}

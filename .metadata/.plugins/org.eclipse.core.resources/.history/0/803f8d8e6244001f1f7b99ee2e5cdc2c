@@ -1,0 +1,9 @@
+package Assignment;
+
+public class MainAssignment2 {
+public static void main(String[] args) {
+	Employee []e=new Employee[3];
+	e[0]=new Employee("Harsha",117,56000);
+	
+}
+}

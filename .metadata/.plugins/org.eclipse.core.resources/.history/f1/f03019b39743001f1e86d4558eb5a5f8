@@ -1,0 +1,11 @@
+package com.graymatter.bank;
+
+public class SavingsAcount extends Account {
+	private double balance;
+	
+	//@Override
+   public void withdraw(double amount) {
+		
+	}
+
+}

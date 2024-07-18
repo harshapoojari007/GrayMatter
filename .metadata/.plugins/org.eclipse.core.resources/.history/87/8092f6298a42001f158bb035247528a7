@@ -1,0 +1,30 @@
+package com.grayMatter;
+
+import java.util.Scanner;
+
+public class DemoOnIf {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         boolean flag=false;
+         if(flag)
+        
+        	 System.out.println("Hii If State");
+         else
+        	 
+        	 System.out.println("Bye");
+         
+         Scanner sc=new Scanner(System.in);
+         
+         int a=sc.nextInt();
+         int b=sc.nextInt();
+         
+         if(a>b)
+        	 System.out.println(a);
+         else
+        	 System.out.println(b);
+         
+         
+	}
+
+}

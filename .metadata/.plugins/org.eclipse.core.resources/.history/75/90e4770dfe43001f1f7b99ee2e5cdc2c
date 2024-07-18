@@ -1,0 +1,17 @@
+package com.grayMatter.Calculator;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    Scientific sc=new Scientific();
+    sc.add(1, 2);
+    sc.sub(1, 3);
+    sc.div(9, 3);
+    sc.mul(5, 05);
+    sc.pow(2, 3);
+    sc.sqrt(36);
+    
+
+}}
+	

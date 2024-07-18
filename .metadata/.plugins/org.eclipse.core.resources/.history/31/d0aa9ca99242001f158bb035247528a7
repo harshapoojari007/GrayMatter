@@ -1,0 +1,12 @@
+package com.grayMatter;
+
+public class Employee {
+// Instance variablesS
+String name;
+int id;
+double sal;
+String mobile;
+String email;
+static String compName;// static variable, shared variable
+
+}

@@ -1,0 +1,24 @@
+package com.grayMatter;
+
+public class MainShape {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Shape s=new Shape();
+		s.getArea();
+		s.getPerimeter();
+		s.getArea();
+		
+		Square sq=new Square(4);
+		sq.getArea();
+		sq.getPerimeter();
+		
+		Circel c=new Circel();
+		c.getArea();
+		c.getPerimeter();
+		
+		
+
+	}
+
+}

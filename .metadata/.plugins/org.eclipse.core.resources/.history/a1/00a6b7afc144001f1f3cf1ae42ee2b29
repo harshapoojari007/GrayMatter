@@ -1,0 +1,24 @@
+package com.grayMatter;
+
+public class DemoOnWrapper {
+	public static void main(String[] args) {
+		int i=67;
+		Integer iobj=i;
+		Integer iobj1=(Integer)i;
+
+		int j=iobj;
+		int j1=iobj.intValue();
+
+		Character c='i';
+		char c1=c;
+
+		Boolean b=false;
+		boolean b1=b;
+
+		Integer i1=new Integer(12);
+		System.out.println(i1);
+	}
+
+
+
+}

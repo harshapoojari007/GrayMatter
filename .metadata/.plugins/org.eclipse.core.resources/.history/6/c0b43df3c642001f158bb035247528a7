@@ -1,0 +1,12 @@
+package com.grayMatter.Assignment;
+
+import java.util.Scanner;
+
+import com.grayMatter.Student;
+
+public class Assignment6 {
+	public static void main(String[] args) {
+    Student s=new Student()
+
+	}
+}

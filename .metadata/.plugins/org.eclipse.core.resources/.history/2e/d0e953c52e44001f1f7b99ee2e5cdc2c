@@ -1,0 +1,15 @@
+package com.grayMatters.String;
+
+public class DemoOnString {
+	public static void main(String[] args) {
+		String str="harsha";
+		System.out.println(str.hashCode());
+		str="Hii";
+		System.out.println(str.hashCode());
+		
+		String s=new String("harsha");
+		System.out.println(s.hashCode());
+	}
+
+
+}

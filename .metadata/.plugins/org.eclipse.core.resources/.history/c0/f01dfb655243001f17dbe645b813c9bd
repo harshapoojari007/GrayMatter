@@ -1,0 +1,8 @@
+package com.graymatter;
+
+public class FinalClass {
+private final String name="Harsha";
+public void changName(String name) {
+	this.name=name;
+}
+}

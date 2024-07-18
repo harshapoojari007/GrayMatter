@@ -1,0 +1,7 @@
+package com.grayMatter.Calculator;
+
+public interface MyScientificCalculator {
+	abstract public void pow(int a,int b);
+	abstract public void sqrt(int a);
+
+}

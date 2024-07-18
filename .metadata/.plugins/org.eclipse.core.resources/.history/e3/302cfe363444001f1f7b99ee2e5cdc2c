@@ -1,0 +1,31 @@
+package com.grayMatters.String;
+
+public class StringBufferDemo {
+	public static void main(String[] args) {
+		StringBuffer sbf1=new StringBuffer("Hello");
+		StringBuffer sbf2=new StringBuffer("");
+		 System.out.println(sbf2.capacity());
+		 sbf1.toString();
+		 
+		 System.out.println(sbf2.isEmpty());
+		 System.out.println(sbf2.length());
+		 System.out.println(sbf1);
+		 System.out.println(sbf1);
+		 System.out.println();
+		 System.out.println();
+		 System.out.println();
+		 
+		 String []names=new String[3];
+		 names[0]="Harsha";
+		 names[1]="String";
+		 names[2]="seetha";
+		 
+		 
+		 for(String st:names)
+		 {
+			 if(st.startsWith("S"))
+					 System.out.println(s);
+		 }
+		 
+	}
+}

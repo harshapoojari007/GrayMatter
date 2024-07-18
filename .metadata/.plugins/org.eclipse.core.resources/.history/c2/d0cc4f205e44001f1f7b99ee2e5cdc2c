@@ -1,0 +1,22 @@
+package com.grayMatter.Arrays;
+
+public class TwoDimenArray {
+public static void main(String[] args) {
+	int mat1[][]=new int[3][3];
+	int mat2[][]=new int[3][3];
+	
+	int row1=mat1.length;
+	int row2=mat2.length;
+	int col1=mat1[0].length;
+	int col2=mat2[0].length;
+	
+	int mat3[][]=new int[col1][row2];
+	for(int i=0;i<col1;i++)
+	{
+		for(int j=0;j<row2;j++)
+		{
+			for(int j=0;j<)
+		}
+	}
+}
+}

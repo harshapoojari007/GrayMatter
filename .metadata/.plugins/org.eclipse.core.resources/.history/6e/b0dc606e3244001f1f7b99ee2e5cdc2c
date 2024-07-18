@@ -1,0 +1,11 @@
+package com.grayMatters.String;
+
+public class StringBufferDemo {
+	public static void main(String[] args) {
+		StringBuffer sbf1=new StringBuffer("Hello");
+		StringBuffer sbf2=new StringBuffer();
+		 System.out.println(sbf2.capacity());
+		 
+	}
+
+}
