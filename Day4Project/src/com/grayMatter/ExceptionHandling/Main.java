@@ -6,6 +6,9 @@ public static void main(String[] args) throws InvalidAgeToVote{
 	
 	if(p.getAge()<18)
 		throw new InvalidAgeToVote("Person age should be minimum 18" );
+	else {
+		System.out.println("Person can vote");
+	}
 	
 }
 }

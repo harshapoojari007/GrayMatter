@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.grayMatter.Employee"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="com.grayMatter.Student"/>
-    <fullyQualifiedTypeName name="com.graymatter.DemoClass"/>
-    <fullyQualifiedTypeName name="com.grayMatter.Assignment.Assignment1"/>
-    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
-    <fullyQualifiedTypeName name="com.graymatter.MethodOverloading"/>
-    <fullyQualifiedTypeName name="java.sql.Date"/>
-    <fullyQualifiedTypeName name="com.graymatter.Employee"/>
-    <fullyQualifiedTypeName name="com.graymatter.Customer"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="com.graymatter.ClassA"/>
     <fullyQualifiedTypeName name="com.graymatter.DemoOnStatic"/>
     <fullyQualifiedTypeName name="com.graymatter.Main"/>
     <fullyQualifiedTypeName name="com.graymatter.MainClass"/>
@@ -26,7 +14,6 @@
     <fullyQualifiedTypeName name="com.grayMatter.Calculator.MyScientificCalculator"/>
     <fullyQualifiedTypeName name="java.lang.InternalError"/>
     <fullyQualifiedTypeName name="com.grayMatter.Interface3"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="com.grayMatter.ThreeInterfaces"/>
     <fullyQualifiedTypeName name="com.grayMatter.Calculator.MyCalculator"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
@@ -39,8 +26,38 @@
     <fullyQualifiedTypeName name="com.grayMatter.DemoOnFI"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
     <fullyQualifiedTypeName name="java.util.StringJoiner"/>
     <fullyQualifiedTypeName name="Assignment.Employee"/>
     <fullyQualifiedTypeName name="Assignment.Employees"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="javax.swing.text.DateFormatter"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+    <fullyQualifiedTypeName name="com.grayMatter.DemoOnDateAndClass"/>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="java.time.Period"/>
+    <fullyQualifiedTypeName name="com.grayMatter.InvalidAgeToVote"/>
+    <fullyQualifiedTypeName name="com.grayMatter.ExceptionHandling.InvalidAgeToVote"/>
+    <fullyQualifiedTypeName name="com.graymatter.bank.InvalidPinException"/>
+    <fullyQualifiedTypeName name="com.grayMatter.Multithreading.DemoOnThreads"/>
+    <fullyQualifiedTypeName name="com.grayMatter.Multithreading.CounterClass"/>
+    <fullyQualifiedTypeName name="com.grayMatter.Multithreading.CounterMain"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInput"/>
+    <fullyQualifiedTypeName name="com.grayMatter.FileHandling.MainObjectStream"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="com.grayMatter.FileHandling.Customer"/>
+    <fullyQualifiedTypeName name="com.grayMatter.FileHandling.FileHandling"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
 </qualifiedTypeNameHistroy>
