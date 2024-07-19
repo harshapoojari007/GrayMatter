@@ -2,23 +2,11 @@ package Assignment;
 
 public class Customer extends User{
 
+	private String name="Customer";
 	@Override
-	void getDetails() {
+	public void display() {
 		// TODO Auto-generated method stub
-		System.out.println("Name="+name+" Username="+username+" Email="+email+" Id="+id);
-		
-	}
-
-
-	@Override
-	void setDetails(String name, String username, String email, String id) {
-		// TODO Auto-generated method stub
-		this.name=name;
-		this.username=username;
-		this.email=email;
-		this.id=id;
-		
-		
+		System.out.println("This is "+name);
 	}
 
 }

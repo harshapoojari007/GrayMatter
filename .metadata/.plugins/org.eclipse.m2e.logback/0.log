@@ -9,3 +9,4 @@
 2024-07-18 16:57:06,274 [Worker-175: https://sourceforge.net/projects/sapnweclipse/files/updates/site.xml] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://downloads.sourceforge.net:443
 2024-07-18 16:57:07,902 [Worker-179: https://sourceforge.net/projects/sapnweclipse/files/updates/site.xml] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://downloads.sourceforge.net:443
 2024-07-18 21:22:47,477 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2024-07-19 09:56:23,795 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

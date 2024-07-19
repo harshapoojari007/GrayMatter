@@ -3,15 +3,19 @@ package Assignment;
 public class MainAssignment1 {
 public static void main(String[] args) {
 	User c=new Customer();
-	User e=new Employee();
-	User a=new Admin();
+	
+ c=new Admin();
 	
 	c.setDetails("Surya", "surya007", "surya@gmail.com", "12345");
-	e.setDetails("Hemant", "Hemant007", "Hemant@gmail.com", "12345");
-	a.setDetails("Sangam", "Sangam007", "Sangam@gmail.com", "12345");
+	c.display();
 	
-	a.getDetails();
-	e.getDetails();
-	c.getDetails();
+	 c=new Employee();
+	c.setDetails("Hemant", "Hemant007", "Hemant@gmail.com", "12345");
+	c.display();
+	
+	 c=new Employee();
+	c.setDetails("Sangam", "Sangam007", "Sangam@gmail.com", "12345");
+	c.display();
+	
 }
 }
