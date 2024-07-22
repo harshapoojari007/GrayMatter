@@ -16,12 +16,12 @@ public static void main(String[] args) {
 
 	System.out.println(ts);
 	
-	Iterator<Integer> itr=ts.descendingIterator();
-	while(itr.hasNext())
-	{
-		System.out.println(itr.next());
-	}
-  
+//	Iterator<Integer> itr=ts.descendingIterator();
+//	while(itr.hasNext())
+//	{
+//		System.out.println(itr.next());
+//	}
+//  
 	Employee e1=new  Employee(1723,"Harsha Poojari",140000,"Udupi");
 	Employee e2=new  Employee(1724,"Aditya Poojari",160000,"Udupi");
 	Employee e3=new  Employee(1725,"Manish Poojari",90000,"Udupi");
@@ -46,17 +46,19 @@ public static void main(String[] args) {
 		System.out.println(itr2.next());
 	}
   
-	for(Employee e:temp)
-	{
-		System.out.println(e);
-	}
+//	for(Employee e:temp)
+//	{
+//		System.out.println(e);
+//	}
 	
-	System.out.println(ts.ceiling(60));
-	System.out.println(ts.floor(60));
-	ts.add(56);
-	ts.add(-2);
-	System.out.println(ts.headSet(56));
-	System.out.println(ts.tailSet(56));
+//	System.out.println(ts.ceiling(60));
+//	System.out.println(ts.floor(60));
+//	ts.add(56);
+//	ts.add(-2);
+//	System.out.println(ts.headSet(56));
+//	System.out.println(ts.tailSet(56));
+	
+	
 	
    
 }
