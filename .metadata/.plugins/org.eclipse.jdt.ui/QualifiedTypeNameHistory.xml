@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.graymatter.DemoOnStatic"/>
-    <fullyQualifiedTypeName name="com.graymatter.Main"/>
-    <fullyQualifiedTypeName name="com.graymatter.MainClass"/>
-    <fullyQualifiedTypeName name="com.graymatter.bank.SavingsAcount"/>
-    <fullyQualifiedTypeName name="com.grayMatter.AbstractClass"/>
-    <fullyQualifiedTypeName name="com.grayMatter.AbstractChildClass"/>
-    <fullyQualifiedTypeName name="com.grayMatter.Calculator.Arithmetic"/>
-    <fullyQualifiedTypeName name="com.grayMatter.Calculator.Scientific"/>
-    <fullyQualifiedTypeName name="com.grayMatter.Square"/>
-    <fullyQualifiedTypeName name="com.grayMatter.Circel"/>
-    <fullyQualifiedTypeName name="com.grayMatter.Calculator.CalInterface"/>
     <fullyQualifiedTypeName name="com.grayMatter.Calculator.MyScientificCalculator"/>
     <fullyQualifiedTypeName name="java.lang.InternalError"/>
     <fullyQualifiedTypeName name="com.grayMatter.Interface3"/>
@@ -24,14 +13,11 @@
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="com.grayMatter.DemoAbstract"/>
     <fullyQualifiedTypeName name="com.grayMatter.DemoOnFI"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.StringJoiner"/>
     <fullyQualifiedTypeName name="Assignment.Employee"/>
     <fullyQualifiedTypeName name="Assignment.Employees"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="javax.swing.text.DateFormatter"/>
     <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
@@ -60,4 +46,18 @@
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.ListIterator"/>
+    <fullyQualifiedTypeName name="com.grayMatter.Info"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.grayMatter.Student"/>
+    <fullyQualifiedTypeName name="com.grayMatter.UserInterface"/>
+    <fullyQualifiedTypeName name="com.grayMatter.Course"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="com.grayMatter.Enroll"/>
+    <fullyQualifiedTypeName name="com.grayMatter.AppEngine"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>
