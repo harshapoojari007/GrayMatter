@@ -1,6 +1,7 @@
 package com.grayMatter;
 
 import java.util.Date;
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class Assignment1Main {
@@ -39,43 +40,34 @@ public static void main(String[] args) {
 	Order o3=new Order(123,new Date(),items3);
 	Order o4=new Order(124,new Date(),items4);
 	
+	LinkedList<Order> ol=new LinkedList<Order>();
+	ol.add(o1);
+	ol.add(o2);
+	ol.add(o3);
+	ol.add(o4);
+	
 	int maxOrder=0;
 	Order max=new Order();
    System.out.print("Order 1 Total Cost: ");
    System.out.println(o1.TotalOrderCost());
-   if(o1.TotalOrderCost()>maxOrder)
-   {
-
-	   maxOrder=o1.TotalOrderCost();
-	   max=o1;
-   }
-	   
    
    System.out.print("Order 2 Total Cost: ");
    System.out.println(o2.TotalOrderCost());
-   if(o2.TotalOrderCost()>maxOrder) {
-	   maxOrder=o2.TotalOrderCost();
-	max=o2;   
-   }
-   
    System.out.print("Order 3 Total Cost: ");
    System.out.println(o3.TotalOrderCost());
-   if(o3.TotalOrderCost()>maxOrder)
-	   
-   {
-	   maxOrder=o3.TotalOrderCost();
-	   max=o3;
-   }
-	  
    
    System.out.print("Order 4 Total Cost: ");
    System.out.println(o4.TotalOrderCost());
-   if(o4.TotalOrderCost()>maxOrder)
+   Iterator<Order> it=ol.iterator();
+   while(it.hasNext())
    {
-	   maxOrder=o4.TotalOrderCost();
-	   max=o4;
+	   Order o=it.next();
+	   if(o.TotalOrderCost() > maxOrder)
+	   {
+		   maxOrder=o.TotalOrderCost();
+		   max=o;
+	   }
    }
-	 
    
 	
 	System.out.println("The Max order is:"+maxOrder+"\n"+max);

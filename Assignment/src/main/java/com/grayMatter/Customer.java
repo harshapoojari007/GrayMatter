@@ -1,7 +1,7 @@
 package com.grayMatter;
 
 import java.util.Comparator;
-
+import java.util.Objects;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -30,5 +30,13 @@ public class Customer implements Comparable{
 		return (int) (this.getOrderValue()-e.getOrderValue());
 		
 	}
-   
+	@Override
+	public boolean equals(Object obj) {
+		Customer c=(Customer)obj;
+		if((this.getCustId()==c.getCustId())&&( this.getName().equals(c.getName()))&&(this.getOrderValue()==c.getOrderValue())) {
+			return true;
+		}
+		return false;
+	}
+    
 }

@@ -43,7 +43,11 @@ public static void main(String[] args) {
 	System.out.println(i.next());
 	
 	//Contains
-	System.out.println(ad.contains(c1));
+	
+	Customer c6=new Customer(125,"Keshav Poojari",false,199);
+
+	System.out.println("Contains");
+	System.out.println(ad.contains(c6));
 	
 	List<Customer> list = new ArrayList<>(ad);
 	Collections.sort(list);
