@@ -1,8 +1,0 @@
-package com.grayMatter.ExceptionHandling;
-
-public class DemoOnExceptions {
-public static void main(String[] args) {
-	int num=7,deno=0;
-    System.out.println(num/deno);
-}
-}

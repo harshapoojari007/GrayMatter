@@ -1,6 +1,0 @@
-package com.grayMatter;
-
-public interface Calculator {
-	
-
-}

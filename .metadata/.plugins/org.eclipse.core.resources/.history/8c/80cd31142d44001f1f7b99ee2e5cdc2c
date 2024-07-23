@@ -1,6 +1,0 @@
-package com.grayMatters.String;
-
-public class DemoOnString {
-String str="harsha";
-
-}
