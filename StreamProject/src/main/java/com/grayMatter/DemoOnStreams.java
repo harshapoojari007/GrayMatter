@@ -91,5 +91,20 @@ public static void main(String[] args) {
     fact.stream()
     .mapToInt(i->i).sorted().limit(2).skip(1).forEach(System.out::println);
     
+    //List of strings in alphabetical order
+    //Average of List of Doubles
+    //If a number is prime or not
+    //concatenate to strings
+    //Count words in paragraph
+    
+    
+    List<String> str2=Arrays.asList("Harsha","Manish","MS","MG");
+    
+    
+    
+    
+    
+    
+    
 }
 }
