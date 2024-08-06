@@ -52,10 +52,11 @@ public static void main(String[] args) {
 	.map(i->i.toUpperCase())
 	.forEach(i->System.out.println(i));
 	
+	
 	int total= all.stream()
     .skip(3)
     .reduce(0,(a,b)->a+b);
-   
+ 
     System.out.println(total);
     
     List<Integer> fact=Arrays.asList(1,2,3,8,6,5);
@@ -99,6 +100,7 @@ public static void main(String[] args) {
     
     
     List<String> str2=Arrays.asList("Harsha","Manish","MS","MG");
+    
     
     
     
